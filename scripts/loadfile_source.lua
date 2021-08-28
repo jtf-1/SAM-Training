@@ -1,0 +1,1 @@
+assert(loadfile("E:\\GitHub\\SAM Training\\scripts\\mission.lua"))()
