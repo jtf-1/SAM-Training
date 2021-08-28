@@ -38,11 +38,11 @@ function TSAM.RestartMission()
   trigger.action.setUserFlag(9999, 1) 
 end
 
-TSAM.MenuCommandSA10 = MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-10",nil,TSAM.RedIADS,"SA-10", false)  
-TSAM.MenuCommandSA10PD = MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-10 & SA15",nil,TSAM.RedIADS,"SA-10", true)
-TSAM.MenuCommandSA11 = MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-11",nil,TSAM.RedIADS,"SA-11", false)  
-TSAM.MenuCommandSA11PD = MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-11 & SA15",nil,TSAM.RedIADS,"SA-11", true)
-TSAM.MenuCommandSA11PD = MENU_COALITION_COMMAND:New(coalition.side.BLUE,"Restart Mission",nil,TSAM.RestartMission)
+MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-10",nil,TSAM.RedIADS,"SA-10", false)  
+MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-10 & SA15",nil,TSAM.RedIADS,"SA-10", true)
+MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-11",nil,TSAM.RedIADS,"SA-11", false)  
+MENU_COALITION_COMMAND:New(coalition.side.BLUE,"SA-11 & SA15",nil,TSAM.RedIADS,"SA-11", true)
+MENU_COALITION_COMMAND:New(coalition.side.BLUE,"Restart Mission",nil,TSAM.RestartMission)
   
 
 
